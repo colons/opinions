@@ -1,5 +1,6 @@
 $bg: #222;
 $fg: #ddd;
+$hover: #ddd;
 $shadow: #000;
 $subtle: #333;
 $hl: #9c3;
@@ -31,7 +32,7 @@ body {
 
   a:hover {
     border-bottom: 1px dotted $hl;
-    background-color: $subtle;
+    color: $hover;
   }
 
   a.home {
@@ -114,10 +115,6 @@ body {
         h2 {
           line-height: 1em;
 
-          a {
-            color: $fg;
-          }
-
           a:hover {
             border: none;
           }
@@ -148,6 +145,7 @@ body {
 
         a:hover {
           border: none;
+          color: $hl;
         }
       }
 
