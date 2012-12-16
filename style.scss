@@ -4,7 +4,8 @@ $hover: #ddd;
 $shadow: #000;
 $subtle: #333;
 $hl: #9c3;
-$glow: #888;
+$glow: #682;
+$glowhover: #888;
 $sep: $hl;
 
 * {
@@ -141,6 +142,10 @@ body {
 
         a:hover {
           border: none;
+
+          span.star {
+            text-shadow: $glowhover 0 0 .5em;
+          }
         }
       }
 
