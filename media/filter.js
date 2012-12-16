@@ -13,6 +13,7 @@ function parse_path(path) {
 }
 
 function apply_filter(filter, func) {
+  /* apply func(review, true) or func(review, false) depending on if a review matches */
   if ('title' in filter) {
     title = filter['title']
     func(everything_but(title), false);
@@ -34,14 +35,20 @@ function apply_filter(filter, func) {
 }
 
 function visible(review, show) {
+  /* set a review as visible or invisible */
   if (show) {
-    review.addClass('visible').removeClass('invisible');
+    review.slideDown(200, function() {
+      $(this).addClass('visible').removeClass('invisible');
+    });
   } else {
-    review.removeClass('visible').addClass('invisible');
+    review.slideUp(200, function() {
+      $(this).removeClass('visible').addClass('invisible');
+    });
   }
 }
 
 function highlight(review, show) {
+  /* set a review as highlighted */
   if (show) {
     review.addClass('selected');
   }
@@ -70,7 +77,7 @@ $('document').ready(function() {
   filter = parse_path(path);
   apply_filter(filter, visible);
 
-  filter_links = $('.type a, td.title h2 a, td.stars a')
+  filter_links = $('.type a, td.title h2 a, td.stars a, a.home')
 
   filter_links.click(function(e) {
     e.preventDefault();

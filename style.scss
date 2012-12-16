@@ -10,6 +10,7 @@ $sep: $hl;
   border: none;
   margin: 0;
   padding: 0;
+  outline: none;
 }
 
 body {
@@ -31,6 +32,15 @@ body {
   a:hover {
     border-bottom: 1px dotted $hl;
     background-color: $subtle;
+  }
+
+  a.home {
+    color: $fg;
+  }
+
+  a.home:hover {
+    border: none;
+    background: none;
   }
 
   h1, h2 {
@@ -115,13 +125,14 @@ body {
       }
 
       td.type {
-        margin: .6em 0 .5em 2%;
+        margin: 0 0 .8em 2%;
         font-size: .8em;
       }
 
       td.stars {
         font-size: 1.5em;
         font-family: sans-serif;
+        margin-right: .5em;
 
         span.star {
           text-shadow: $glow 0 0 .5em;
@@ -141,8 +152,7 @@ body {
       }
 
       td.words {
-        margin: .3em 0;
-
+        margin-top: .8em;
         span.word {
           margin-right: .5em;
         }
@@ -156,6 +166,7 @@ body {
 
   p.footer {
     text-align: center;
+    margin: 2em 0;
 
     a:hover {
       background: none;

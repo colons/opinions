@@ -38,15 +38,16 @@ def reviews(path=False):
         types.add((review['type'], typeslug))
         review['slug'] = slugify(review['title'])
         review['typeslug'] = typeslug
+        
+        if 'words' in review:
+            words = []
+            for word in review['words']:
+                if word.islower():
+                    word = word.capitalize()
 
-        words = []
-        for word in review['words']:
-            if word.islower():
-                word = word.title()
+                words.append('<span class="word">%s.</span>' % word)
 
-            words.append('<span class="word">%s.</span>' % word)
-
-        review['words_string'] = ' '.join(words)
+            review['words_string'] = ' '.join(words)
 
     return bottle.template('reviews', reviews=reviews, types=types)
 

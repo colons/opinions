@@ -10,8 +10,14 @@
     <script src='/m/js/filter' type='text/javascript'></script>
   </head>
   <body>
-    <h1><span class="the">The</span> <span class="mftb"><span class="music">Music</span>&nbsp;for the&nbsp;Blind</span> <span class="review">Review<span></h1>
-    
+    <a class="home" href="/">
+      <h1>
+        <span class="the">The</span>
+        <span class="mftb"><span class="music">Music</span>&nbsp;for the&nbsp;Blind</span>
+        <span class="review">Review<span>
+      </h1>
+    </a>
+      
     <p class="types">
       <span class="type"><a href="/">all</a></span>
 
@@ -23,7 +29,12 @@
     
     <table class="reviews">
       %for review in reviews:
-        <tr class="review {{ review['typeslug'] }} {{ review['stars'] }}-star" id="{{ review['slug'] }}">
+        <tr class="review {{ review['typeslug'] }}
+        %if 'stars' in review:
+          {{ review['stars'] }}-star
+        %end
+        " id="{{ review['slug'] }}">
+
           <td class="title">
             <h2>
               <a href="/{{ review['slug'] }}">
@@ -36,11 +47,7 @@
             </h2>
           </td>
 
-          <td class="type"><a href="/type={{ review['typeslug'] }}/">{{ review['type'] }}</a></p>
-
-          <td class="words">
-            {{!review['words_string']}}
-          </td>
+          <td class="type">a <a href="/type={{ review['typeslug'] }}/">{{ review['type'] }}</a></p>
 
           <td class="stars">
             %if 'stars' in review:
@@ -55,6 +62,13 @@
               </a>
             %end
           </td>
+
+          <td class="words">
+            %if 'words' in review:
+              {{!review['words_string']}}
+            %end
+          </td>
+
         </tr>
       %end
     </table>
