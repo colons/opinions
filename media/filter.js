@@ -34,24 +34,29 @@ function apply_filter(filter, func) {
   }
 }
 
-function visible(review, show) {
+function visible(review, selected) {
   /* set a review as visible or invisible */
-  if (show) {
-    review.slideDown(200, function() {
-      $(this).addClass('visible').removeClass('invisible');
-    });
+  if (selected) {
+    show(review);
+    review.slideDown(200);
   } else {
-    review.slideUp(200, function() {
-      $(this).removeClass('visible').addClass('invisible');
-    });
+    review.slideUp(200, hide($(this)));
   }
 }
 
-function highlight(review, show) {
+function highlight(review, selected) {
   /* set a review as highlighted */
-  if (show) {
+  if (selected) {
     review.addClass('selected');
   }
+}
+
+function hide(review) {
+  review.removeClass('visible').addClass('invisible');
+}
+
+function show(review) {
+  review.addClass('visible').removeClass('invisible');
 }
 
 function unhighlight() {
