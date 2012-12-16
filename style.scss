@@ -26,7 +26,7 @@ body {
   background-color: $bg;
   color: $fg;
   margin: 0 auto;
-  padding: 0 .5em;
+  padding: 0 .7em;
   max-width: 50em;
   position: relative;
   text-shadow: $shadow 0 .1em .2em;
@@ -41,7 +41,6 @@ body {
     }
 
     a:hover {
-      border-bottom: 1px dotted $hl;
       color: $hover;
     }
 
