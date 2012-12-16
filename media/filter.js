@@ -38,6 +38,15 @@ function visible(review, selected) {
   /* set a review as visible or invisible */
   if (selected) {
     show(review);
+  } else {
+    hide(review);
+  }
+}
+
+function visible_fancy(review, selected) {
+  /* set a review as visible or invisible, fancy mode */
+  if (selected) {
+    show(review);
     review.slideDown(200);
   } else {
     review.slideUp(200, hide($(this)));
@@ -89,7 +98,7 @@ $('document').ready(function() {
     path = $(this).attr('href');
     window.history.pushState(null, $(this).text(), path);
     filter = parse_path(path);
-    apply_filter(filter, visible);
+    apply_filter(filter, visible_fancy);
   });
 
   filter_links.hover(function(e) {
