@@ -21,8 +21,6 @@
       </a>
         
       <p class="types">
-        <span class="type"><a href="/">all</a></span>
-
         %typecount = len(types)
         %for type, slug in types:
           <span class="type"><a href="/type={{ slug }}/">{{ type }}s</a></span>
