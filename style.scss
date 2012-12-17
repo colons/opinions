@@ -104,6 +104,10 @@ body {
     p.types {
       font-size: .8em;
       text-align: center;
+
+      span.type {
+        margin: 0 .3em;
+      }
     }
 
     table.reviews {
