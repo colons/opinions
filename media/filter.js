@@ -37,9 +37,9 @@ function apply_filter(filter, func) {
 function visible(review, selected) {
   /* set a review as visible or invisible */
   if (selected) {
-    show(review);
+    show(review.show());
   } else {
-    hide(review);
+    hide(review.hide());
   }
 }
 

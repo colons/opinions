@@ -8,7 +8,7 @@
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
     <link href='/m/css?v=typespacing' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src='/m/js/filter' type='text/javascript'></script>
+    <script src='/m/js/filter?v=initial' type='text/javascript'></script>
   </head>
   <body>
     <div class="everything">
