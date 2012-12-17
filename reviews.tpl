@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>the music for the blind review</title>
+    <title>The Music for the Blind Review</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
@@ -76,7 +76,7 @@
       </table>
 
       <p class="footer">
-        <a href="https://twitter.com/mftb"><img class="bird" src="/m/svg/bird" alt="twitter"></a>
+        <a href="http://www.musicfortheblind.co.uk/"><img class="bird" src="/m/svg/mftb" alt="Music for the Blind"></a>
       </p>
     </div>
   </body>
