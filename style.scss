@@ -3,10 +3,10 @@ $fg: #ddd;
 $hover: #ddd;
 $shadow: #000;
 $subtle: #333;
+$nonstar: #444;
 $hl: #9c3;
 $glow: #682;
 $glowhover: #888;
-$sep: $hl;
 
 * {
   border: none;
@@ -150,7 +150,7 @@ body {
           }
 
           span.nonstar {
-            color: $subtle;
+            color: $nonstar;
           }
 
           a:hover {
