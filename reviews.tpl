@@ -16,7 +16,7 @@
         <h1>
           <span class="the">The</span>
           <span class="mftb"><span class="music">Music</span>&nbsp;for the&nbsp;Blind</span>
-          <span class="review">Review<span>
+          <span class="review">Review</span>
         </h1>
       </a>
         
@@ -47,7 +47,7 @@
               </h2>
             </td>
 
-            <td class="type">a <a href="/type={{ review['typeslug'] }}/">{{ review['type'] }}</a></p>
+            <td class="type">a <a href="/type={{ review['typeslug'] }}/">{{ review['type'] }}</a></td>
 
             <td class="stars">
               %if 'stars' in review:
