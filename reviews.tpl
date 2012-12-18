@@ -54,9 +54,9 @@
                 <a href="/stars={{ review['stars'] }}/">
                   %for i in xrange(1,6):
                     %if review['stars'] >= i:
-                      <span class="star">★</span>\\
+<span class="star">★</span>&nbsp;\\
                     %else:
-                      <span class="nonstar">☆</span>\\
+<span class="nonstar">☆</span>&nbsp;\\
                     %end
                   %end
                 </a>
