@@ -48,7 +48,6 @@
       "words": ["engrossing smut"]
     },
 
-
     {
       "title": "Chaos;Head",
       "type": "keion",
@@ -84,14 +83,5 @@
       "stars": 2
     }
 
-  ],
-
-  "unpublished": [
-    {
-      "title": "Chuunibyou Demo Koi ga Shitai!",
-      "type": "keion",
-      "words": ["clumsy", "predictable", "effective"],
-      "stars": 4
-    }
   ]
 }
