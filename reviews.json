@@ -63,11 +63,12 @@
     },
 
     {
-      "title": "Tweet me Harder",
-      "type": "podcast",
-      "words": ["ambitious", "successful"],
-      "stars": 5
+      "title": "Torchwood: Miracle Day",
+      "type": "television show",
+      "words": ["torn"],
+      "stars": 3
     },
+
 
     {
       "title": "The Melancholy of Haruhi Suzumiya (2009)",
@@ -81,6 +82,13 @@
       "type": "video game",
       "words": ["a shadow of its inspiration"],
       "stars": 2
+    },
+
+    {
+      "title": "Tweet me Harder",
+      "type": "podcast",
+      "words": ["ambitious", "successful"],
+      "stars": 5
     }
 
   ]
