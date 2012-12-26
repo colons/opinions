@@ -1,5 +1,11 @@
 {
   "reviews": [
+    {
+      "title": "Chuunibyou Demo Koi ga Shitai!",
+      "type": "keion",
+      "words": ["clumsy", "predictable", "effective"],
+      "stars": 4
+    },
 
     {
       "title": "Skyfall",
