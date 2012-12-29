@@ -6,7 +6,7 @@ $subtle: #333;
 $nonstar: #444;
 $hl: #9c3;
 $glow: #682;
-$glowhover: #888;
+$glowhover: #777;
 
 * {
   border: none;
@@ -146,7 +146,7 @@ body {
           margin-right: .5em;
 
           span.star {
-            text-shadow: $glow 0 0 .5em;
+            text-shadow: $glow 0 0 .4em;
           }
 
           span.nonstar {
@@ -157,7 +157,7 @@ body {
             border: none;
 
             span.star {
-              text-shadow: $glowhover 0 0 .5em;
+              text-shadow: $glowhover 0 0 .4em;
             }
           }
         }
