@@ -1,6 +1,19 @@
 {
   "reviews": [
     {
+      "title": "Django Unchained",
+      "type": "film",
+      "words": ["solid", "fun"],
+      "stars": 4
+    },
+
+    {
+      "title": "Unofficial Sentai Akibaranger",
+      "type": "television show",
+      "stars": 5
+    },
+
+    {
       "title": "Chuunibyou Demo Koi ga Shitai!",
       "type": "keion",
       "words": ["clumsy", "predictable", "effective"],
