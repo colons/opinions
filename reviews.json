@@ -1,6 +1,13 @@
 {
   "reviews": [
     {
+      "title": "Wreck-it Ralph",
+      "type": "film",
+      "words": ["pandering"],
+      "stars": 4
+    },
+
+    {
       "title": "Django Unchained",
       "type": "film",
       "words": ["solid", "fun"],
