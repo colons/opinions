@@ -1,6 +1,13 @@
 {
   "reviews": [
     {
+      "title": "Bioshock Infinite",
+      "type": "video game",
+      "words": ["an incredibly long tutorial for an incredibly frustrating boss fight", "A story, I guess"],
+      "stars": 3
+    },
+
+    {
       "title": "Wreck-it Ralph",
       "type": "film",
       "words": ["pandering"],
