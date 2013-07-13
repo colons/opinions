@@ -1,6 +1,18 @@
 {
   "reviews": [
     {
+      "title": "Hotline Miami",
+      "type": "video game",
+      "words": ["intensely satisfying"],
+      "stars": 5
+    },
+    {
+      "title": "Uchuu Kyoudai",
+      "type": "keion",
+      "words": ["coasting"],
+      "stars": 2
+    },
+    {
       "title": "Bioshock Infinite",
       "type": "video game",
       "words": ["an ineffective tutorial for an incredibly frustrating boss fight", "A story, I guess"],
