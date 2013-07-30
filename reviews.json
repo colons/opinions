@@ -1,6 +1,18 @@
 {
   "reviews": [
     {
+      "title": "Osombie",
+      "type": "film",
+      "words": ["alarmingly competent"],
+      "stars": 4
+    },
+    {
+      "title": "Atlantic Rim",
+      "type": "film",
+      "words": ["bad"],
+      "stars": 1
+    },
+    {
       "title": "Hotline Miami",
       "type": "video game",
       "words": ["intensely satisfying"],
