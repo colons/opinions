@@ -1,9 +1,15 @@
 {
   "reviews": [
     {
+      "title": "This Year Collection's coverage of Blue Jam",
+      "type": "podcast",
+      "words": ["Flawlessly paced"],
+      "stars": 5
+    },
+    {
       "title": "Hunter x Hunter: Phantom Rouge",
       "type": "film",
-      "words": ["Unnecessary"],
+      "words": ["unnecessary"],
       "stars": 2
     },
     {
