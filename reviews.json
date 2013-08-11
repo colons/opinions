@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "Hunter x Hunter: Phantom Rouge",
+      "type": "film",
+      "words": ["Unnecessary"],
+      "stars": 2
+    },
+    {
       "title": "Osombie",
       "type": "film",
       "words": ["alarmingly competent"],
