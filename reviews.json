@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "Pacific Rim",
+      "type": "film",
+      "words": ["an elegant balance of stupidity and respect"],
+      "stars": 5
+    },
+    {
       "title": "This Year Collection's coverage of Blue Jam",
       "type": "podcast",
       "words": ["Flawlessly paced"],
