@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "JoJo's Bizarre Adventure (2012)",
+      "type": "keion",
+      "words": ["incapable of inducing suspense"],
+      "stars": 2
+    },
+    {
       "title": "Pacific Rim",
       "type": "film",
       "words": ["an elegant balance of stupidity and respect"],
