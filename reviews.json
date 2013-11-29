@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "Girls und Panzer",
+      "type": "keion",
+      "words": ["precisely what you'd expect"],
+      "stars": 4
+    },
+    {
       "title": "JoJo's Bizarre Adventure (2012)",
       "type": "keion",
       "words": ["incapable of inducing suspense"],
