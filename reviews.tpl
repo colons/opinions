@@ -10,7 +10,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src='/m/js/filter?v=initial' type='text/javascript'></script>
   </head>
-  <body>
+  <body class="init">
     <div class="everything">
       <a class="home" href="/">
         <h1>

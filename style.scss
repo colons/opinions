@@ -115,9 +115,12 @@ body {
       padding-bottom: 6em;
 
       tr.review {
+        clear: both;
+        transition: opacity .5s, max-height .5s, padding .5s;
         width: 100%;
         display: block;
-        margin: 3em 0 4em;
+        padding: 2em 0;
+        max-height: 10em;
         
         td {
           display: block;
@@ -171,7 +174,9 @@ body {
       }
 
       tr.review.invisible {
-        display: none;
+        opacity: 0;
+        max-height: 0;
+        padding: 0;
       }
     }
 
@@ -198,9 +203,16 @@ body {
 table.hovering {
   tr.review {
     opacity: .2;
+    transition: opacity .1s;
   }
 
   tr.review.selected {
     opacity: 1;
+  }
+}
+
+body.init {
+  tr.review {
+    transition: none !important;
   }
 }

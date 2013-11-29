@@ -35,21 +35,10 @@ function apply_filter(filter, func) {
 }
 
 function visible(review, selected) {
-  /* set a review as visible or invisible */
-  if (selected) {
-    show(review.show());
-  } else {
-    hide(review.hide());
-  }
-}
-
-function visible_fancy(review, selected) {
-  /* set a review as visible or invisible, fancy mode */
   if (selected) {
     show(review);
-    review.slideDown(200);
   } else {
-    review.slideUp(200, hide($(this)));
+    hide(review);
   }
 }
 
@@ -94,14 +83,16 @@ $('document').ready(function() {
   filter_links = $('.type a, td.title h2 a, td.stars a, a.home')
 
   filter_links.click(function(e) {
+    $('body').removeClass('init');
     e.preventDefault();
     path = $(this).attr('href');
     window.history.pushState(null, $(this).text(), path);
     filter = parse_path(path);
-    apply_filter(filter, visible_fancy);
+    apply_filter(filter, visible);
   });
 
   filter_links.hover(function(e) {
+    $('body').removeClass('init');
     path = $(this).attr('href');
     $('table.reviews').addClass('hovering');
     filter = parse_path(path);
