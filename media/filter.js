@@ -79,15 +79,15 @@ function everything_but(title) {
   return $('tr.review:not(#'+title+')');
 }
 
-$('document').ready(function() {
+function apply_filter_from_path() {
   var path = window.location.pathname;
   var filter = parse_path(path);
   apply_filter(filter, visible);
+}
 
-  window.onpopstate = function() {
-    var filter = parse_path(path);
-    apply_filter(filter, visible);
-  };
+$('document').ready(function() {
+  apply_filter_from_path();
+  window.onpopstate = apply_filter_from_path;
 
   var filter_links = $('.type a, td.title h2 a, td.stars a, a.home');
 
@@ -96,8 +96,7 @@ $('document').ready(function() {
     e.preventDefault();
     path = $(this).attr('href');
     window.history.pushState(null, $(this).text(), path);
-    filter = parse_path(path);
-    apply_filter(filter, visible);
+    apply_filter_from_path();
   });
 
   filter_links.hover(function(e) {
