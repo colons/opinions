@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "47 Ronin",
+      "type": "film",
+      "words": ["appreciable parody"],
+      "stars": 3
+    },
+    {
       "title": "Girls und Panzer",
       "type": "keion",
       "words": ["precisely what you'd expect"],
