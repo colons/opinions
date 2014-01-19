@@ -74,9 +74,8 @@
       </table>
 
       <p class="footer">
-        <a href="http://www.musicfortheblind.co.uk/"><img class="bird" src="/m/svg/mftb" alt="Music for the Blind"></a>
+        <a href="http://colons.co/"><img class="bird" src="/m/svg/mftb" alt=""></a>
       </p>
     </div>
   </body>
 </html>
-
