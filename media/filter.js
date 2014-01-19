@@ -84,6 +84,11 @@ $('document').ready(function() {
   var filter = parse_path(path);
   apply_filter(filter, visible);
 
+  window.onpopstate = function() {
+    var filter = parse_path(path);
+    apply_filter(filter, visible);
+  };
+
   var filter_links = $('.type a, td.title h2 a, td.stars a, a.home');
 
   filter_links.click(function(e) {
