@@ -1,6 +1,12 @@
 {
   "reviews": [
     {
+      "title": "Crysis 2",
+      "type": "video game",
+      "words": ["boring", "unpolished", "infantile"],
+      "stars": 1
+    },
+    {
       "title": "Jazzpunk",
       "type": "video game",
       "words": ["always amusing", "occasionally hilarious", "rarely fun"],
