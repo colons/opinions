@@ -30,6 +30,9 @@
       <table class="reviews">
         %for review in reviews:
           <tr class="review {{ review['typeslug'] }}
+          %if not review['active']:
+            invisible
+          %end
           %if 'stars' in review:
             {{ review['stars'] }}-star
           %end
