@@ -1,6 +1,29 @@
 {
   "reviews": [
     {
+      "title": "Dragon Ball Z: Battle of Gods",
+      "type": "film",
+      "words": ["tonally confusing", "laughably patriarchal"],
+      "stars": 1
+    },
+    {
+      "title": "Time of Eve",
+      "type": "film",
+      "words": ["tragic"],
+      "stars": 5
+    },
+    {
+      "title": "Appleseed Alpha",
+      "type": "film",
+      "words": ["sickeningly optimistic", "a showcase of entirely practical armour design"],
+      "stars": 3
+    },
+    {
+      "title": "Giovanni's Island",
+      "type": "film",
+      "stars": 4
+    },
+    {
       "title": "Crysis 2",
       "type": "video game",
       "words": ["boring", "unpolished", "infantile"],
