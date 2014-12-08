@@ -40,7 +40,7 @@
 
             <td class="title">
               <h2>
-                <a href="/{{ review['slug'] }}">
+                <a href="/{{ review['slug'] }}/">
                   %if 'artist' in review:
                     <span class="artist">{{ review['artist'] }}</span> -
                   %end
